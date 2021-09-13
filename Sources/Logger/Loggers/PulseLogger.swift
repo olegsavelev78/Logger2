@@ -5,7 +5,6 @@
 //  Created by Nikita Abramenko on 03.08.2021.
 //
 
-import Foundation
 import PulseUI
 import UIKit
 import Pulse

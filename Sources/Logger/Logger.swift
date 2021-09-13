@@ -1,6 +1,6 @@
 import Foundation
 
-final class Logger {
+ public class Logger {
     internal var registeredLoggers: [LoggerRegisterContainer] = []
     internal var disabledSymbols = Set<String>()
     fileprivate(set) static var sharedInstance = Logger()

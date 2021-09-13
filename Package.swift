@@ -26,9 +26,9 @@ let package = Package(
             dependencies: [
                 .product(name: "PulseUI", package: "Pulse"),
                 "Pulse"
-            ])
-      //  .testTarget(
-        //    name: "LoggerTests",
-          //  dependencies: ["Logger"]),
+            ]),
+        .testTarget(
+            name: "LoggerTests",
+            dependencies: ["Logger"]),
     ]
 )

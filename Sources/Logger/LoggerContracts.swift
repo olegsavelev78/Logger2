@@ -60,3 +60,5 @@ public extension Loggable {
         Logger.sharedInstance.log(loggerType, level, tag: tag, className: String(describing: type(of: self)), message)
     }
 }
+
+open class Loggable2: Loggable {}
