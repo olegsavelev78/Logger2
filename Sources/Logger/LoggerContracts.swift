@@ -61,4 +61,6 @@ public extension Loggable {
     }
 }
 
-open class Loggable2: Loggable {}
+open class Loggable2: Loggable {
+    init() { }
+}
