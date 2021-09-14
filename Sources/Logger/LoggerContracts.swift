@@ -62,5 +62,5 @@ public extension Loggable {
 }
 
 open class Loggable2: Loggable {
-    init() { }
+    public init() { }
 }
